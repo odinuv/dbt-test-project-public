@@ -7,10 +7,10 @@
     renamed as (
         
         select
-            id,
-            col1,
-            col2,
-            col3
+            "id",
+            "col1",
+            "col2",
+            "col3"
         from source
     
     )
