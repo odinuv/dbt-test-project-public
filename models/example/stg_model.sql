@@ -1,6 +1,6 @@
    with source as (
         
-        select * from {{ source('in.c-test.test', 'test') }}
+        select * from {{ source('in.c-test', 'test') }}
         
     ),
     
