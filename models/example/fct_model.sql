@@ -3,4 +3,4 @@
 
 select *
 from {{ ref('stg_model') }}
-where "first" = 1
+where "first" = 'a'
